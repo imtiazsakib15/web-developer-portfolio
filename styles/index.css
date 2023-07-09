@@ -17,7 +17,6 @@
 .section-title {
   color: #181818;
   font-size: 35px;
-  font-weight: 700;
   margin-bottom: 30px;
 }
 .section-desc {
@@ -91,12 +90,10 @@ nav h4 {
 .banner-subtitle {
   color: #474747;
   font-size: 45px;
-  font-weight: 600;
 }
 .banner-title {
   color: #181818;
   font-size: 85px;
-  font-weight: 700;
 }
 .banner-desc {
   font-size: 18px;
@@ -115,13 +112,15 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
-section {
+section.about,
+section.what-i-do,
+section.resume {
   margin-top: 130px;
+  text-align: center;
 }
 /* About Me Styles */
 .about {
   background-color: #fff8f3;
-  text-align: center;
   padding: 130px 150px;
   border-radius: 10px;
 }
@@ -138,18 +137,15 @@ section {
   font-size: 20px;
 }
 /* What I Do Section Styles */
-.what-i-do {
-  text-align: center;
-}
 .what-i-do .section-desc {
   margin: 0 115px 50px;
 }
-.expertise {
+.expertise, .resume-detail {
   display: flex;
   gap: 24px;
+  text-align: left;
 }
 .expertise > div {
-  text-align: left;
   padding: 30px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
@@ -160,5 +156,31 @@ section {
   color: #181818;
   font-size: 20px;
   margin-bottom: 20px;
-  font-weight: 700;
+}
+/* Resume Section Styles */
+.resume {
+    margin-bottom: 110px;
+}
+.resume-detail {
+  margin: 80px 0 20px;
+}
+.resume-column > div {
+    padding-right: 45px;
+}
+.resume-heading {
+  color: #474747;
+  font-size: 30px;
+}
+.resume-title {
+    color: #474747;
+    font-size: 25px;
+    margin: 30px 0 10px;
+}
+.resume-subtitle {
+    color: #757575;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.resume-desc {
+    margin-bottom: 30px;
 }
