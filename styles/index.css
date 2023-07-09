@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
   font-family: "Open Sans", sans-serif;
+  box-sizing: border-box;
+}
+p {
+  color: #757575;
+  line-height: 30px;
 }
 .btn-primary {
   border-radius: 5px;
@@ -22,10 +27,6 @@
 .section-desc {
   font-size: 18px;
   margin-bottom: 30px;
-}
-p {
-  color: #757575;
-  line-height: 30px;
 }
 
 /* Header Section Styles */
@@ -140,7 +141,8 @@ section.resume {
 .what-i-do .section-desc {
   margin: 0 115px 50px;
 }
-.expertise, .resume-detail {
+.expertise,
+.resume-detail {
   display: flex;
   gap: 24px;
   text-align: left;
@@ -159,28 +161,59 @@ section.resume {
 }
 /* Resume Section Styles */
 .resume {
-    margin-bottom: 110px;
+  margin-bottom: 110px;
 }
 .resume-detail {
   margin: 80px 0 20px;
 }
 .resume-column > div {
-    padding-right: 45px;
+  padding-right: 45px;
 }
 .resume-heading {
   color: #474747;
   font-size: 30px;
 }
 .resume-title {
-    color: #474747;
-    font-size: 25px;
-    margin: 30px 0 10px;
+  color: #474747;
+  font-size: 25px;
+  margin: 30px 0 10px;
 }
 .resume-subtitle {
-    color: #757575;
-    font-size: 20px;
-    margin-bottom: 20px;
+  color: #757575;
+  font-size: 20px;
+  margin-bottom: 20px;
 }
 .resume-desc {
-    margin-bottom: 30px;
+  margin-bottom: 30px;
+}
+/* Footer Section Styles */
+.footer {
+  display: flex;
+  padding: 130px 230px;
+  gap: 120px;
+  background-color: #fff8f3;
+}
+.footer-column {
+  width: 50%;
+}
+.footer h2 {
+  margin-bottom: 24px;
+}
+.footer p {
+  margin-bottom: 30px;
+}
+.footer img {
+  margin-right: 24px;
+}
+form input[type="text"],
+form input[type="email"],
+form textarea {
+  display: block;
+  padding: 18px 30px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 24px;
+  border: 0;
+  font-size: 16px;
+  line-height: 28px;
 }
